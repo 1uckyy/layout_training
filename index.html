@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/dist/style.min.css" />
     <title>Portfolio</title>
   </head>
-  <body>
+  <body class="no-scroll">
     <header class="header">
       <div class="container">
         <div class="header__inner">
@@ -424,5 +424,53 @@
         </div> <!-- /.footer__inner -->
       </div> <!-- /.container -->
     </footer>
+
+
+    <!-- Modals -->
+    <div class="modal">
+      <div class="modal__dialog">
+
+        <button class="modal__close" type="button">
+          <img src="images/close.svg" alt="close">
+        </button>
+
+        <div class="modal-work">
+
+          <div class="modal-work__preview">
+            <img class="modal-work__photo" src="https://placehold.it/790x780" alt="">
+          </div>
+          <div class="modal-work__content">
+            <div class="modal-work__header">
+              <h3 class="modal-work__title">Project title</h3>
+              <div class="modal-work__info">
+                category <span class="modal-work__info-divider">|</span> 2018
+              </div>
+            </div>
+            <div class="modal-work__client">
+              <div class="modal-work__client-title">Client:</div>
+              <div class="modal-work__client-company">Creative Agency</div>
+            </div>
+
+            <div class="modal-work__text">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla mattis erat nec enim euismod fermentum. In hac habitasse platea dictumst. Duis sollicitudin condimentum metus, in pretium tellus ultrices sit amet. Etiam nec volutpat velit. Vivamus dapibus id nisi quis ullamcorper. Morbi ac efficitur odio.</p>
+              <p>Quisque a purus non nisi pulvinar posuere lobortis eget eros. Vivamus euismod ligula enim, quis imperdiet quam consequat eget. Aliquam auctor porttitor justo, ut imperdiet elit vehicula sed. Sed ut vestibulum nisl, sed tristique tortor. Morbi vel lacus ullamcorper, suscipit erat eget, tincidunt lorem. Aliquam congue nulla nisl, a sollicitudin ex euismod a.</p>
+            </div>
+
+            <div class="modal-work__footer">
+              <button class="modal-work__btn modal-work__btn--prev" type="button">
+                <img src="images/left-arrow.svg" height="12" alt="">
+                Previous</button>
+              <button class="modal-work__btn modal-work__btn--next" type="button">Next
+                <img src="images/right-arrow.svg" height="12" alt="">
+              </button>
+            </div>
+          </div>
+
+        </div> <!-- /.modal-work -->
+
+      </div> <!-- /.modal__dialog -->
+    </div> <!-- /.modal -->
+
+
   </body>
 </html>
